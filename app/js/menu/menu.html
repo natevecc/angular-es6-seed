@@ -1,7 +1,8 @@
- <md-content>
+ <div flex layout="column">
   <md-toolbar>
     <div class="md-toolbar-tools">
-      <md-button class="md-icon-button" aria-label="Settings">
+      <md-button class="md-icon-button" aria-label="Settings"
+        ng-click="menuCtrl.toggleMenu()">
         <md-icon>menu</md-icon>
       </md-button>
       <h2>
@@ -16,5 +17,14 @@
       </md-button>
     </div>
   </md-toolbar>
-  <md-content ui-view="content"></md-content>
-</md-content>
+  <div flex layout="row">
+    <md-sidenav class="md-whiteframe-z2" md-component-id="menu" layout="column">
+      <md-toolbar>
+        <h2>
+          <span>Menu</span>
+        </h2>
+      </md-toolbar>
+    </md-sidenav>
+    <div ui-view="content"></div>
+  </div>
+</div>

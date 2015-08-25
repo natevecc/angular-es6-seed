@@ -21,9 +21,11 @@ function config($stateProvider, $urlRouterProvider) {
 
   $stateProvider
     .state('root', {
+      abstract: true,
       url: '',
       templateUrl: '/menu/menu.html',
-      abstract: true
+      controller: 'MenuController',
+      controllerAs: 'menuCtrl'
     })
     .state('root.home', {
       url: '/',
@@ -31,7 +33,7 @@ function config($stateProvider, $urlRouterProvider) {
         content: {
           templateUrl: '/home/home.html',
           controller: 'HomeController',
-          controlelrAs: 'homeCtrl'
+          controllerAs: 'homeCtrl'
         }
       }
     });
