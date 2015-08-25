@@ -1,0 +1,43 @@
+{
+  "name": "angular-es6-seed",
+  "version": "0.0.1",
+  "description": "A simple angular seed built with ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natevecc/angular-es6-seed.git"
+  },
+  "author": "Nathan Vecchiarelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natevecc/angular-es6-seed/issues"
+  },
+  "homepage": "https://github.com/natevecc/angular-es6-seed",
+  "dependencies": {
+    "angular": "^1.4.4",
+    "angular-animate": "^1.4.4",
+    "angular-aria": "^1.4.4",
+    "angular-material": "^0.10.1",
+    "angular-ui-router": "^0.2.15",
+    "lodash": "^3.10.1",
+    "material-design-icons": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babelify": "^6.2.0",
+    "browserify": "^11.0.1",
+    "browserify-ng-html2js": "^1.1.3",
+    "gulp": "^3.9.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "gulp-webserver": "^0.9.1",
+    "require-dir": "^0.3.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.1"
+  }
+}
