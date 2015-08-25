@@ -5,7 +5,8 @@ export const browserifyConfig = {
   entries: `${sourceFiles}/js/seed.module.es6`,
   dest,
   outputName: 'bundle.js',
-  extensions: ['.js', '.es6', '.html']
+  extensions: ['.js', '.es6', '.html'],
+  debug: true
 }
 
 export const ngHtml2JsConfig = {

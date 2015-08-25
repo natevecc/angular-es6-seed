@@ -1,4 +1,6 @@
 import angular from 'angular'
+import ngAnimate from 'angular-animate'
+import ngAria from 'angular-aria'
 import ngUIRouter from 'angular-ui-router'
 import ngMaterial from 'angular-material'
 
@@ -7,8 +9,9 @@ import home from './home'
 
 export default angular.module('seed', [
   'templates',
+  ngAnimate,
   ngUIRouter,
-  'ngMaterial',
+  ngMaterial,
   menu.name,
   home.name
 ])

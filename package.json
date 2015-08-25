@@ -18,7 +18,7 @@
   "homepage": "https://github.com/natevecc/angular-es6-seed",
   "dependencies": {
     "angular": "^1.4.4",
-    "angular-animate": "^1.4.4",
+    "angular-animate": "1.4.3",
     "angular-aria": "^1.4.4",
     "angular-material": "^0.10.1",
     "angular-ui-router": "^0.2.15",
